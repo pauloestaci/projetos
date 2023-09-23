@@ -1,0 +1,34 @@
+@charset "UTF-8"; /*para não ter problema de compatibilidade com caracteres especiais dentro das CSS-->*/
+
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%; /*para o site preencher a tela do usuário 100%*/
+}
+
+body {
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7); /*deixando o fundo da tela em degrade*/
+}
+
+main {
+    background-color: white; /* deixando o fundo da caixa de texto branco*/
+    border-radius: 10px; /*arredondando as pontas da caixa de texto*/
+    box-shadow: 5px 5px 15px rgba(161, 129, 110, 0.578); /* sombra na caixa de texto */
+    width: 600px; /* margem a direita*/
+    padding: 10px; /* margem dentro da caixa de texto*/
+    margin: auto; /* centralizar a caixa de texto*/
+}
+
+h1 {
+    color: #f39209; /*cor do título principal*/
+    text-align: center; /* centralizando o título*/
+    text-shadow: 1px 1px 2px #975b0650; /* pondo sombra no título*/
+    border-style: ;
+}
+
+h2 {
+    color: #125189; /*cor do subtitulo*/
+}
+
+P{
+    text-align: justify; /*deixando os parágrafos alinhados*/
+} 
